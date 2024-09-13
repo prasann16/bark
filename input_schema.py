@@ -9,6 +9,6 @@ INPUT_SCHEMA = {
         'datatype': 'STRING',
         'required': True,
         'shape': [1],
-        'example': ["v1/en_speaker_1"]
+        'example': ["v2/en_speaker_1"]
     }
 }

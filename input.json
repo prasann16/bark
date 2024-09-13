@@ -1,14 +1,24 @@
 {
-    "inputs": [
-      {
-        "name": "prompt",
-        "datatype": "BYTES",
-        "shape": [
-          1
-        ],
-        "data": [
-          "Hello, my name is Suno. And, uh — and I like pizza. [laughs] But I also have other interests such as playing tic tac toe."
-        ]
-      }
-    ]
+  "inputs": [
+    {
+      "name": "prompt",
+      "shape": [
+        1
+      ],
+      "data": [
+        "Hello, I am Prasann and I am a software engineer."
+      ],
+      "datatype": "BYTES"
+    },
+    {
+      "name": "speaker",
+      "shape": [
+        1
+      ],
+      "data": [
+        "v2/en_speaker_1"
+      ],
+      "datatype": "BYTES"
+    }
+  ]
 }
