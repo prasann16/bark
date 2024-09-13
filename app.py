@@ -12,7 +12,8 @@ class InferlessPythonModel:
         
     def infer(self, inputs):
         prompt = inputs["prompt"]
-        audio_array = generate_audio(prompt)
+        speaker = inputs["speaker"]
+        audio_array = generate_audio(prompt, history_prompt=speaker)
         buffer = io.BytesIO()
         
         sf.write(buffer, audio_array,SAMPLE_RATE, format='WAV')
